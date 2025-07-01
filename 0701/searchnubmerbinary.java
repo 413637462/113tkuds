@@ -27,6 +27,14 @@ public class searchnubmerbinary {
             }
             
         }
+        if (found){
+            System.out.println("找到數字"+x+"!");
+
+        }else {
+            System.out.println("沒找到數字"+x+"。");
+        }
+
+        sc.close();
 
         
     }
