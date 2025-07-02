@@ -23,9 +23,8 @@ public class matrix_multiplication_trace {
             }System.out.printf("=%d%n",sum);
             c[i][j] = sum;
         }
-    }
-    System.out.println("結果矩陣:");
-    for (int[] row : c){
+    }System.out.println("結果矩陣:");
+     for (int[] row : c){
         for (int num : row){
             System.out.print(num+"\t");
         }
