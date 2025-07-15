@@ -33,7 +33,3 @@ public class Q7_DailyPowerReverse {
         sc.close();
     }
 }
-/*  
- * Time Complexity: O(n)  
- * 說明：反轉操作需遍歷半個陣列，時間複雜度為 O(n)。  
- */  

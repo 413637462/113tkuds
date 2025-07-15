@@ -35,7 +35,3 @@ public class Q6_NightMarketMap {
         sc.close();
     }
 }
-/*  
- * Time Complexity: O(1)  
- * 說明：固定處理 10x10 地圖，時間複雜度為常數。  
- */  
