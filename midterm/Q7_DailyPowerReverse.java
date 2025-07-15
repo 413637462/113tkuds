@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Q7_DailyPowerReverse {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] power = new int[7];
+        
+        
+        for (int i = 0; i < 7; i++) {
+            power[i] = sc.nextInt();
+        }
+        
+        
+        int left = 0;
+        int right = 6;
+        while (left < right) {
+            
+            int temp = power[left];
+            power[left] = power[right];
+            power[right] = temp;
+            left++;
+            right--;
+        }
+        
+        
+        for (int i = 0; i < 7; i++) {
+            System.out.print(power[i]);
+            if (i < 6) {
+                System.out.print(" ");
+            }
+        }
+        
+        sc.close();
+    }
+}
+/*  
+ * Time Complexity: O(n)  
+ * 說明：反轉操作需遍歷半個陣列，時間複雜度為 O(n)。  
+ */  
