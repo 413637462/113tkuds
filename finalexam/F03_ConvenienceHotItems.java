@@ -19,6 +19,7 @@ public class F03_ConvenienceHotItems {
         for (int i = 0; i < Math.min(10, n); i++) {
             System.out.println(items[i][0] + " " + items[i][1]);
         }
+        sc.close();
     }
 }
 
